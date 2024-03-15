@@ -10,7 +10,6 @@
 		BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */; };
 		BC4B805A2BA488D500DA33C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80592BA488D500DA33C9 /* ContentView.swift */; };
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
-		BC4B805F2BA488D600DA33C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805E2BA488D600DA33C9 /* Preview Assets.xcassets */; };
 		BC4B80692BA488D600DA33C9 /* CatFancySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIApp.swift; sourceTree = "<group>"; };
 		BC4B80592BA488D500DA33C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC4B805B2BA488D600DA33C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC4B805E2BA488D600DA33C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC4B80642BA488D600DA33C9 /* CatFancySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFancySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,24 +71,14 @@
 		BC4B80562BA488D500DA33C9 /* CatFancySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC4B80862BA48BA200DA33C9 /* App */,
 				BC4B80832BA4896B00DA33C9 /* Assets */,
-				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
-				BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */,
-				BC4B80592BA488D500DA33C9 /* ContentView.swift */,
 				BC4B80812BA4892400DA33C9 /* Helpers */,
 				BC4B80822BA4893B00DA33C9 /* Models */,
-				BC4B805D2BA488D600DA33C9 /* Preview Content */,
 				BC4B80842BA4898200DA33C9 /* ViewModels */,
+				BC4B80852BA48B7700DA33C9 /* Views */,
 			);
 			path = CatFancySwiftUI;
-			sourceTree = "<group>";
-		};
-		BC4B805D2BA488D600DA33C9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BC4B805E2BA488D600DA33C9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BC4B80672BA488D600DA33C9 /* CatFancySwiftUITests */ = {
@@ -118,6 +106,7 @@
 		BC4B80832BA4896B00DA33C9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -127,6 +116,22 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BC4B80852BA48B7700DA33C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC4B80592BA488D500DA33C9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC4B80862BA48BA200DA33C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4B805F2BA488D600DA33C9 /* Preview Assets.xcassets in Resources */,
 				BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatFancySwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = KT6YTKK67V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -408,7 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatFancySwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = KT6YTKK67V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
