@@ -12,19 +12,10 @@
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
 		BC4B805F2BA488D600DA33C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805E2BA488D600DA33C9 /* Preview Assets.xcassets */; };
 		BC4B80692BA488D600DA33C9 /* CatFancySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */; };
-		BC4B80732BA488D600DA33C9 /* CatFancySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80722BA488D600DA33C9 /* CatFancySwiftUIUITests.swift */; };
-		BC4B80752BA488D600DA33C9 /* CatFancySwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80742BA488D600DA33C9 /* CatFancySwiftUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		BC4B80652BA488D600DA33C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC4B804C2BA488D500DA33C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC4B80532BA488D500DA33C9;
-			remoteInfo = CatFancySwiftUI;
-		};
-		BC4B806F2BA488D600DA33C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC4B804C2BA488D500DA33C9 /* Project object */;
 			proxyType = 1;
@@ -41,9 +32,6 @@
 		BC4B805E2BA488D600DA33C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC4B80642BA488D600DA33C9 /* CatFancySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFancySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUITests.swift; sourceTree = "<group>"; };
-		BC4B806E2BA488D600DA33C9 /* CatFancySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFancySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC4B80722BA488D600DA33C9 /* CatFancySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIUITests.swift; sourceTree = "<group>"; };
-		BC4B80742BA488D600DA33C9 /* CatFancySwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC4B806B2BA488D600DA33C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +57,6 @@
 			children = (
 				BC4B80562BA488D500DA33C9 /* CatFancySwiftUI */,
 				BC4B80672BA488D600DA33C9 /* CatFancySwiftUITests */,
-				BC4B80712BA488D600DA33C9 /* CatFancySwiftUIUITests */,
 				BC4B80552BA488D500DA33C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +66,6 @@
 			children = (
 				BC4B80542BA488D500DA33C9 /* CatFancySwiftUI.app */,
 				BC4B80642BA488D600DA33C9 /* CatFancySwiftUITests.xctest */,
-				BC4B806E2BA488D600DA33C9 /* CatFancySwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +73,14 @@
 		BC4B80562BA488D500DA33C9 /* CatFancySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC4B80832BA4896B00DA33C9 /* Assets */,
+				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
 				BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */,
 				BC4B80592BA488D500DA33C9 /* ContentView.swift */,
-				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
+				BC4B80812BA4892400DA33C9 /* Helpers */,
+				BC4B80822BA4893B00DA33C9 /* Models */,
 				BC4B805D2BA488D600DA33C9 /* Preview Content */,
+				BC4B80842BA4898200DA33C9 /* ViewModels */,
 			);
 			path = CatFancySwiftUI;
 			sourceTree = "<group>";
@@ -118,13 +101,32 @@
 			path = CatFancySwiftUITests;
 			sourceTree = "<group>";
 		};
-		BC4B80712BA488D600DA33C9 /* CatFancySwiftUIUITests */ = {
+		BC4B80812BA4892400DA33C9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				BC4B80722BA488D600DA33C9 /* CatFancySwiftUIUITests.swift */,
-				BC4B80742BA488D600DA33C9 /* CatFancySwiftUIUITestsLaunchTests.swift */,
 			);
-			path = CatFancySwiftUIUITests;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BC4B80822BA4893B00DA33C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC4B80832BA4896B00DA33C9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BC4B80842BA4898200DA33C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +167,6 @@
 			productReference = BC4B80642BA488D600DA33C9 /* CatFancySwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BC4B806D2BA488D600DA33C9 /* CatFancySwiftUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC4B807E2BA488D600DA33C9 /* Build configuration list for PBXNativeTarget "CatFancySwiftUIUITests" */;
-			buildPhases = (
-				BC4B806A2BA488D600DA33C9 /* Sources */,
-				BC4B806B2BA488D600DA33C9 /* Frameworks */,
-				BC4B806C2BA488D600DA33C9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC4B80702BA488D600DA33C9 /* PBXTargetDependency */,
-			);
-			name = CatFancySwiftUIUITests;
-			productName = CatFancySwiftUIUITests;
-			productReference = BC4B806E2BA488D600DA33C9 /* CatFancySwiftUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +181,6 @@
 						CreatedOnToolsVersion = 15.3;
 					};
 					BC4B80632BA488D600DA33C9 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = BC4B80532BA488D500DA33C9;
-					};
-					BC4B806D2BA488D600DA33C9 = {
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = BC4B80532BA488D500DA33C9;
 					};
@@ -221,7 +201,6 @@
 			targets = (
 				BC4B80532BA488D500DA33C9 /* CatFancySwiftUI */,
 				BC4B80632BA488D600DA33C9 /* CatFancySwiftUITests */,
-				BC4B806D2BA488D600DA33C9 /* CatFancySwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +216,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BC4B80622BA488D600DA33C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC4B806C2BA488D600DA33C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +242,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC4B806A2BA488D600DA33C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC4B80732BA488D600DA33C9 /* CatFancySwiftUIUITests.swift in Sources */,
-				BC4B80752BA488D600DA33C9 /* CatFancySwiftUIUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +249,6 @@
 			isa = PBXTargetDependency;
 			target = BC4B80532BA488D500DA33C9 /* CatFancySwiftUI */;
 			targetProxy = BC4B80652BA488D600DA33C9 /* PBXContainerItemProxy */;
-		};
-		BC4B80702BA488D600DA33C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC4B80532BA488D500DA33C9 /* CatFancySwiftUI */;
-			targetProxy = BC4B806F2BA488D600DA33C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,42 +470,6 @@
 			};
 			name = Release;
 		};
-		BC4B807F2BA488D600DA33C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KT6YTKK67V;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flauta.romeo.CatFancySwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CatFancySwiftUI;
-			};
-			name = Debug;
-		};
-		BC4B80802BA488D600DA33C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KT6YTKK67V;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flauta.romeo.CatFancySwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CatFancySwiftUI;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,15 +496,6 @@
 			buildConfigurations = (
 				BC4B807C2BA488D600DA33C9 /* Debug */,
 				BC4B807D2BA488D600DA33C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC4B807E2BA488D600DA33C9 /* Build configuration list for PBXNativeTarget "CatFancySwiftUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC4B807F2BA488D600DA33C9 /* Debug */,
-				BC4B80802BA488D600DA33C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
