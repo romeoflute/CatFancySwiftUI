@@ -26,6 +26,8 @@
 		BCAEEC372BA5B2A5005AEC0F /* ErrorRetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC362BA5B2A5005AEC0F /* ErrorRetryView.swift */; };
 		BCAEEC392BA5B2C6005AEC0F /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC382BA5B2C6005AEC0F /* Layout.swift */; };
 		BCAEEC3B2BA5BCEE005AEC0F /* BreedDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC3A2BA5BCEE005AEC0F /* BreedDetailsView.swift */; };
+		BCAEEC3E2BA5BF3C005AEC0F /* SortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */; };
+		BCAEEC402BA5BF75005AEC0F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC3F2BA5BF75005AEC0F /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		BCAEEC362BA5B2A5005AEC0F /* ErrorRetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRetryView.swift; sourceTree = "<group>"; };
 		BCAEEC382BA5B2C6005AEC0F /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		BCAEEC3A2BA5BCEE005AEC0F /* BreedDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailsView.swift; sourceTree = "<group>"; };
+		BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOrder.swift; sourceTree = "<group>"; };
+		BCAEEC3F2BA5BF75005AEC0F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 				BC4B80952BA48F6600DA33C9 /* License.swift */,
 				BC4B809B2BA4901100DA33C9 /* Sound.swift */,
 				BC4B809F2BA4909100DA33C9 /* Breeds.swift */,
+				BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */,
+				BCAEEC3F2BA5BF75005AEC0F /* Settings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 				BCAEEC3B2BA5BCEE005AEC0F /* BreedDetailsView.swift in Sources */,
 				BC4B80962BA48F6700DA33C9 /* License.swift in Sources */,
 				BC4B80942BA48F3D00DA33C9 /* Breed.swift in Sources */,
+				BCAEEC402BA5BF75005AEC0F /* Settings.swift in Sources */,
 				BC4B809E2BA4907300DA33C9 /* BreedsLoader.swift in Sources */,
 				BC4B808E2BA48ED400DA33C9 /* BrowseBreedsViewModel.swift in Sources */,
 				BC4B80A02BA4909100DA33C9 /* Breeds.swift in Sources */,
@@ -294,6 +301,7 @@
 				BCAEEC372BA5B2A5005AEC0F /* ErrorRetryView.swift in Sources */,
 				BCAEEC392BA5B2C6005AEC0F /* Layout.swift in Sources */,
 				BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */,
+				BCAEEC3E2BA5BF3C005AEC0F /* SortOrder.swift in Sources */,
 				BC4B808A2BA48D2400DA33C9 /* BrowseBreedsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,7 +21,10 @@ class BrowseBreedsViewModel {
     func loadBreeds() async {
         state = .loading
         do {
-            let breeds = try await BreedsLoader.loadBreeds()
+            var breeds = try await BreedsLoader.loadBreeds()
+            breeds.sort { breed1, breed2 in
+              settings.sortOrder.compare(breed1: breed1, breed2: breed2)
+            }
             state = .loaded(breeds: breeds)
         } catch {
             state = .error
