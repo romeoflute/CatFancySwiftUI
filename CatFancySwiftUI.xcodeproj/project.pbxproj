@@ -23,6 +23,8 @@
 		BC4B809C2BA4901100DA33C9 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B809B2BA4901100DA33C9 /* Sound.swift */; };
 		BC4B809E2BA4907300DA33C9 /* BreedsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B809D2BA4907300DA33C9 /* BreedsLoader.swift */; };
 		BC4B80A02BA4909100DA33C9 /* Breeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B809F2BA4909100DA33C9 /* Breeds.swift */; };
+		BCAEEC372BA5B2A5005AEC0F /* ErrorRetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC362BA5B2A5005AEC0F /* ErrorRetryView.swift */; };
+		BCAEEC392BA5B2C6005AEC0F /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC382BA5B2C6005AEC0F /* Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		BC4B809B2BA4901100DA33C9 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		BC4B809D2BA4907300DA33C9 /* BreedsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsLoader.swift; sourceTree = "<group>"; };
 		BC4B809F2BA4909100DA33C9 /* Breeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breeds.swift; sourceTree = "<group>"; };
+		BCAEEC362BA5B2A5005AEC0F /* ErrorRetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRetryView.swift; sourceTree = "<group>"; };
+		BCAEEC382BA5B2C6005AEC0F /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				BC4B80972BA48FAD00DA33C9 /* URLExtension.swift */,
 				BC4B80992BA48FE900DA33C9 /* SoundPlayer.swift */,
 				BC4B809D2BA4907300DA33C9 /* BreedsLoader.swift */,
+				BCAEEC382BA5B2C6005AEC0F /* Layout.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */,
 				BC4B80892BA48D2400DA33C9 /* BrowseBreedsView.swift */,
 				BC4B808B2BA48D3700DA33C9 /* SettingsView.swift */,
+				BCAEEC362BA5B2A5005AEC0F /* ErrorRetryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +287,8 @@
 				BC4B809C2BA4901100DA33C9 /* Sound.swift in Sources */,
 				BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */,
 				BC4B80982BA48FAD00DA33C9 /* URLExtension.swift in Sources */,
+				BCAEEC372BA5B2A5005AEC0F /* ErrorRetryView.swift in Sources */,
+				BCAEEC392BA5B2C6005AEC0F /* Layout.swift in Sources */,
 				BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */,
 				BC4B808A2BA48D2400DA33C9 /* BrowseBreedsView.swift in Sources */,
 			);

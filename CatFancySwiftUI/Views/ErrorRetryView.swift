@@ -1,0 +1,30 @@
+//
+//  ErrorRetryView.swift
+//  CatFancySwiftUI
+//
+//  Created by Romeo Flauta on 3/16/24.
+//
+
+import SwiftUI
+
+struct ErrorRetryView: View {
+    let message: String
+    let viewModel: BrowseBreedsViewModel
+    
+    var body: some View {
+        VStack {
+            Text(message)
+                .padding()
+            
+            Spacer()
+                .frame(height: Layout.standard)
+            
+            Button("Retry") {
+                Task {
+                    await viewModel.loadBreeds()
+                }
+            }
+        }
+    }
+}
+
