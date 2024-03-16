@@ -63,6 +63,7 @@
 		BCAEEC862BA5D08D005AEC0F /* TurkishAngora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6E2BA5D08D005AEC0F /* TurkishAngora.jpg */; };
 		BCAEEC872BA5D08D005AEC0F /* Van.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */; };
 		BCAEEC882BA5D08D005AEC0F /* breeds_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */; };
+		BCAEEC8A2BA5DEE1005AEC0F /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC892BA5DEE1005AEC0F /* Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		BCAEEC6E2BA5D08D005AEC0F /* TurkishAngora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TurkishAngora.jpg; sourceTree = "<group>"; };
 		BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Van.jpg; sourceTree = "<group>"; };
 		BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds_malformed.json; sourceTree = "<group>"; };
+		BCAEEC892BA5DEE1005AEC0F /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 				BC4B80892BA48D2400DA33C9 /* BrowseBreedsView.swift */,
 				BCAEEC362BA5B2A5005AEC0F /* ErrorRetryView.swift */,
 				BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */,
+				BCAEEC892BA5DEE1005AEC0F /* Modifier.swift */,
 				BC4B808B2BA48D3700DA33C9 /* SettingsView.swift */,
 			);
 			path = Views;
@@ -444,6 +447,7 @@
 				BCAEEC502BA5CB1E005AEC0F /* SessionType.swift in Sources */,
 				BCAEEC4E2BA5CAE7005AEC0F /* BreedsURL.swift in Sources */,
 				BC4B809A2BA48FE900DA33C9 /* SoundPlayer.swift in Sources */,
+				BCAEEC8A2BA5DEE1005AEC0F /* Modifier.swift in Sources */,
 				BC4B809C2BA4901100DA33C9 /* Sound.swift in Sources */,
 				BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */,
 				BCAEEC572BA5CC4B005AEC0F /* URLProtocolStub.swift in Sources */,
