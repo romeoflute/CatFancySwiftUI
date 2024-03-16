@@ -28,3 +28,7 @@ struct ErrorRetryView: View {
     }
 }
 
+#Preview {
+    ErrorRetryView(message: "This is a test error message.", viewModel: BrowseBreedsViewModel())
+}
+
