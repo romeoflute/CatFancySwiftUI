@@ -11,6 +11,11 @@ struct BrowseBreedsView: View {
     var viewModel = BrowseBreedsViewModel()
     @State private var images: [String: UIImage] = [:]
     private let photoHeightWidth: CGFloat = 150
+    private let mockedState: BrowseBreedsViewModel.State?
+    
+    init(mockedState: BrowseBreedsViewModel.State? = nil) {
+        self.mockedState = mockedState
+    }
     
     var body: some View {
         NavigationStack {
@@ -24,7 +29,7 @@ struct BrowseBreedsView: View {
                     if !breeds.isEmpty {
                         list(of: breeds)
                             .refreshable {
-                                await viewModel.loadBreeds()
+                                await viewModel.loadBreeds(mockedState: mockedState)
                             }
                     } else {
                         ErrorRetryView(message: "The endpoint returned an empty array of breeds.", viewModel: viewModel)
@@ -34,7 +39,7 @@ struct BrowseBreedsView: View {
             .navigationTitle("Cat Breeds")
         }
         .task {
-            await viewModel.loadBreeds()
+            await viewModel.loadBreeds(mockedState: mockedState)
         }
     }
     
@@ -74,6 +79,23 @@ struct BrowseBreedsView: View {
     }
 }
 
-#Preview {
+#Preview("Mocked Data") {
+    BrowseBreedsView(mockedState: .loaded(breeds: MockData.breeds))
+}
+
+#Preview("Actual Data") {
     BrowseBreedsView()
 }
+
+#Preview("No Data") {
+    BrowseBreedsView(mockedState: .loaded(breeds: []))
+}
+
+#Preview("Error") {
+    BrowseBreedsView(mockedState: .error)
+}
+
+#Preview("Loading") {
+    BrowseBreedsView(mockedState: .loading)
+}
+

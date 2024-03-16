@@ -56,3 +56,9 @@ struct BreedDetailsView: View {
         .padding()
     }
 }
+
+#Preview {
+    NavigationStack {
+        BreedDetailsView(breed: MockData.breed)
+    }
+}
