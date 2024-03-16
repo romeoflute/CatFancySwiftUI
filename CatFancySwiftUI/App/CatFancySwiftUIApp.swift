@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct CatFancySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */; };
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
-		BC4B80692BA488D600DA33C9 /* CatFancySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */; };
 		BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */; };
 		BC4B808A2BA48D2400DA33C9 /* BrowseBreedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80892BA48D2400DA33C9 /* BrowseBreedsView.swift */; };
 		BC4B808C2BA48D3700DA33C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B808B2BA48D3700DA33C9 /* SettingsView.swift */; };
@@ -64,6 +63,8 @@
 		BCAEEC872BA5D08D005AEC0F /* Van.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */; };
 		BCAEEC882BA5D08D005AEC0F /* breeds_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */; };
 		BCAEEC8A2BA5DEE1005AEC0F /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC892BA5DEE1005AEC0F /* Modifier.swift */; };
+		BCAEEC8C2BA5E759005AEC0F /* CatFancySwiftUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC8B2BA5E759005AEC0F /* CatFancySwiftUITestApp.swift */; };
+		BCAEEC8E2BA5E7AC005AEC0F /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC8D2BA5E7AC005AEC0F /* AppLauncher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +82,6 @@
 		BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIApp.swift; sourceTree = "<group>"; };
 		BC4B805B2BA488D600DA33C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4B80642BA488D600DA33C9 /* CatFancySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFancySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUITests.swift; sourceTree = "<group>"; };
 		BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		BC4B80892BA48D2400DA33C9 /* BrowseBreedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseBreedsView.swift; sourceTree = "<group>"; };
 		BC4B808B2BA48D3700DA33C9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -136,6 +136,8 @@
 		BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Van.jpg; sourceTree = "<group>"; };
 		BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds_malformed.json; sourceTree = "<group>"; };
 		BCAEEC892BA5DEE1005AEC0F /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		BCAEEC8B2BA5E759005AEC0F /* CatFancySwiftUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUITestApp.swift; sourceTree = "<group>"; };
+		BCAEEC8D2BA5E7AC005AEC0F /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,10 +179,10 @@
 		BC4B80562BA488D500DA33C9 /* CatFancySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				BCAEEC532BA5CBB0005AEC0F /* MockData */,
 				BC4B80862BA48BA200DA33C9 /* App */,
 				BC4B80832BA4896B00DA33C9 /* Assets */,
 				BC4B80812BA4892400DA33C9 /* Helpers */,
+				BCAEEC532BA5CBB0005AEC0F /* MockData */,
 				BC4B80822BA4893B00DA33C9 /* Models */,
 				BC4B80842BA4898200DA33C9 /* ViewModels */,
 				BC4B80852BA48B7700DA33C9 /* Views */,
@@ -191,7 +193,9 @@
 		BC4B80672BA488D600DA33C9 /* CatFancySwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BC4B80682BA488D600DA33C9 /* CatFancySwiftUITests.swift */,
+				BCAEEC922BA5E892005AEC0F /* Helpers */,
+				BCAEEC912BA5E88F005AEC0F /* Models */,
+				BCAEEC902BA5E88D005AEC0F /* ViewModels */,
 			);
 			path = CatFancySwiftUITests;
 			sourceTree = "<group>";
@@ -266,6 +270,8 @@
 			isa = PBXGroup;
 			children = (
 				BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */,
+				BCAEEC8B2BA5E759005AEC0F /* CatFancySwiftUITestApp.swift */,
+				BCAEEC8D2BA5E7AC005AEC0F /* AppLauncher.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -307,6 +313,29 @@
 				BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */,
 			);
 			path = CatImages;
+			sourceTree = "<group>";
+		};
+		BCAEEC902BA5E88D005AEC0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BCAEEC912BA5E88F005AEC0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = "New Group1/Models";
+			sourceTree = "<group>";
+		};
+		BCAEEC922BA5E892005AEC0F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			path = "New Group1/New Group/Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,9 +489,11 @@
 				BCAEEC4A2BA5C9E1005AEC0F /* GetterSetterReal.swift in Sources */,
 				BCAEEC552BA5CC02005AEC0F /* MockData.swift in Sources */,
 				BCAEEC482BA5C9D7005AEC0F /* GetterSetter.swift in Sources */,
+				BCAEEC8C2BA5E759005AEC0F /* CatFancySwiftUITestApp.swift in Sources */,
 				BCAEEC3E2BA5BF3C005AEC0F /* SortOrder.swift in Sources */,
 				BCAEEC442BA5C933005AEC0F /* SoundPlayerReal.swift in Sources */,
 				BC4B808A2BA48D2400DA33C9 /* BrowseBreedsView.swift in Sources */,
+				BCAEEC8E2BA5E7AC005AEC0F /* AppLauncher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +501,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4B80692BA488D600DA33C9 /* CatFancySwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
