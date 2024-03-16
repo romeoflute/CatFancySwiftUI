@@ -37,27 +37,31 @@ struct BrowseBreedsView: View {
     
     func list(of breeds: [Breed]) -> some View {
         List(breeds) { breed in
-            HStack {
-                VStack(alignment: .leading) {
-                    Text(breed.name)
-                        .font(.headline)
-                    Text(breed.knownFor)
-                    Text("Popularity: \(breed.popularity)")
+            NavigationLink {
+                BreedDetailsView(breed: breed)
+            } label: {
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(breed.name)
+                            .font(.headline)
+                        Text(breed.knownFor)
+                        Text("Popularity: \(breed.popularity)")
+                    }
+                    
+                    Spacer()
+                    
+                    AsyncImage(url: breed.photoUrl) { image in
+                        image
+                            .resizable()
+                            .scaledToFill()
+                    } placeholder: {
+                        Image(systemName: "pawprint.fill")
+                            .resizable()
+                            .scaledToFit()
+                    }
                 }
-                
-                Spacer()
-                
-                AsyncImage(url: breed.photoUrl) { image in
-                    image
-                        .resizable()
-                        .scaledToFill()
-                } placeholder: {
-                    Image(systemName: "pawprint.fill")
-                        .resizable()
-                        .scaledToFit()
-                }
+                .padding()
             }
-            .padding()
         }
     }
 }
