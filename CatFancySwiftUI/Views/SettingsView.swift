@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @Bindable private var boundSettings = settings
+    @Bindable private var current = Current
     
     var body: some View {
         VStack {
@@ -22,7 +22,7 @@ struct SettingsView: View {
                 Text("Sort Order")
                     .font(.title)
                 
-                Picker("", selection: $boundSettings.sortOrder) {
+                Picker("", selection: $current.settings.sortOrder) {
                     ForEach(SortOrder.allCases, id: \.self) { sortOrder in
                         Text(sortOrder.displayName).tag(sortOrder)
                     }

@@ -28,6 +28,41 @@
 		BCAEEC3B2BA5BCEE005AEC0F /* BreedDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC3A2BA5BCEE005AEC0F /* BreedDetailsView.swift */; };
 		BCAEEC3E2BA5BF3C005AEC0F /* SortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */; };
 		BCAEEC402BA5BF75005AEC0F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC3F2BA5BF75005AEC0F /* Settings.swift */; };
+		BCAEEC422BA5C8C6005AEC0F /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC412BA5C8C6005AEC0F /* World.swift */; };
+		BCAEEC442BA5C933005AEC0F /* SoundPlayerReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC432BA5C933005AEC0F /* SoundPlayerReal.swift */; };
+		BCAEEC462BA5C9A8005AEC0F /* SoundPlayerDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC452BA5C9A8005AEC0F /* SoundPlayerDummy.swift */; };
+		BCAEEC482BA5C9D7005AEC0F /* GetterSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC472BA5C9D7005AEC0F /* GetterSetter.swift */; };
+		BCAEEC4A2BA5C9E1005AEC0F /* GetterSetterReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC492BA5C9E1005AEC0F /* GetterSetterReal.swift */; };
+		BCAEEC4C2BA5C9EB005AEC0F /* GetterSetterFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC4B2BA5C9EB005AEC0F /* GetterSetterFake.swift */; };
+		BCAEEC4E2BA5CAE7005AEC0F /* BreedsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC4D2BA5CAE7005AEC0F /* BreedsURL.swift */; };
+		BCAEEC502BA5CB1E005AEC0F /* SessionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC4F2BA5CB1E005AEC0F /* SessionType.swift */; };
+		BCAEEC522BA5CB95005AEC0F /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC512BA5CB95005AEC0F /* URLSessionExtension.swift */; };
+		BCAEEC552BA5CC02005AEC0F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC542BA5CC02005AEC0F /* MockData.swift */; };
+		BCAEEC572BA5CC4B005AEC0F /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC562BA5CC4B005AEC0F /* URLProtocolStub.swift */; };
+		BCAEEC592BA5CC76005AEC0F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEEC582BA5CC76005AEC0F /* ImageLoader.swift */; };
+		BCAEEC722BA5D08D005AEC0F /* breeds_empty.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC5A2BA5D08C005AEC0F /* breeds_empty.json */; };
+		BCAEEC732BA5D08D005AEC0F /* breeds_with_more.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC5B2BA5D08C005AEC0F /* breeds_with_more.json */; };
+		BCAEEC742BA5D08D005AEC0F /* breeds.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC5C2BA5D08C005AEC0F /* breeds.json */; };
+		BCAEEC752BA5D08D005AEC0F /* Abyssinian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC5D2BA5D08D005AEC0F /* Abyssinian.jpg */; };
+		BCAEEC762BA5D08D005AEC0F /* Balinese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC5E2BA5D08D005AEC0F /* Balinese.jpg */; };
+		BCAEEC772BA5D08D005AEC0F /* Bengal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC5F2BA5D08D005AEC0F /* Bengal.jpg */; };
+		BCAEEC782BA5D08D005AEC0F /* Burmese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC602BA5D08D005AEC0F /* Burmese.jpg */; };
+		BCAEEC792BA5D08D005AEC0F /* CloudedLeopard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC612BA5D08D005AEC0F /* CloudedLeopard.jpg */; };
+		BCAEEC7A2BA5D08D005AEC0F /* DevonRex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC622BA5D08D005AEC0F /* DevonRex.jpg */; };
+		BCAEEC7B2BA5D08D005AEC0F /* EuropeanWildcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC632BA5D08D005AEC0F /* EuropeanWildcat.jpg */; };
+		BCAEEC7C2BA5D08D005AEC0F /* MaineCoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC642BA5D08D005AEC0F /* MaineCoon.jpg */; };
+		BCAEEC7D2BA5D08D005AEC0F /* Manx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC652BA5D08D005AEC0F /* Manx.jpg */; };
+		BCAEEC7E2BA5D08D005AEC0F /* Ragdoll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC662BA5D08D005AEC0F /* Ragdoll.jpg */; };
+		BCAEEC7F2BA5D08D005AEC0F /* RussianBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC672BA5D08D005AEC0F /* RussianBlue.jpg */; };
+		BCAEEC802BA5D08D005AEC0F /* Sand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC682BA5D08D005AEC0F /* Sand.jpg */; };
+		BCAEEC812BA5D08D005AEC0F /* Savannah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC692BA5D08D005AEC0F /* Savannah.jpg */; };
+		BCAEEC822BA5D08D005AEC0F /* Serval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6A2BA5D08D005AEC0F /* Serval.jpg */; };
+		BCAEEC832BA5D08D005AEC0F /* Siamese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6B2BA5D08D005AEC0F /* Siamese.jpg */; };
+		BCAEEC842BA5D08D005AEC0F /* Smilodon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6C2BA5D08D005AEC0F /* Smilodon.jpg */; };
+		BCAEEC852BA5D08D005AEC0F /* Tonkinese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6D2BA5D08D005AEC0F /* Tonkinese.jpg */; };
+		BCAEEC862BA5D08D005AEC0F /* TurkishAngora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6E2BA5D08D005AEC0F /* TurkishAngora.jpg */; };
+		BCAEEC872BA5D08D005AEC0F /* Van.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */; };
+		BCAEEC882BA5D08D005AEC0F /* breeds_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +99,41 @@
 		BCAEEC3A2BA5BCEE005AEC0F /* BreedDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailsView.swift; sourceTree = "<group>"; };
 		BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOrder.swift; sourceTree = "<group>"; };
 		BCAEEC3F2BA5BF75005AEC0F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BCAEEC412BA5C8C6005AEC0F /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		BCAEEC432BA5C933005AEC0F /* SoundPlayerReal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerReal.swift; sourceTree = "<group>"; };
+		BCAEEC452BA5C9A8005AEC0F /* SoundPlayerDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerDummy.swift; sourceTree = "<group>"; };
+		BCAEEC472BA5C9D7005AEC0F /* GetterSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterSetter.swift; sourceTree = "<group>"; };
+		BCAEEC492BA5C9E1005AEC0F /* GetterSetterReal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterSetterReal.swift; sourceTree = "<group>"; };
+		BCAEEC4B2BA5C9EB005AEC0F /* GetterSetterFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterSetterFake.swift; sourceTree = "<group>"; };
+		BCAEEC4D2BA5CAE7005AEC0F /* BreedsURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsURL.swift; sourceTree = "<group>"; };
+		BCAEEC4F2BA5CB1E005AEC0F /* SessionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionType.swift; sourceTree = "<group>"; };
+		BCAEEC512BA5CB95005AEC0F /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		BCAEEC542BA5CC02005AEC0F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		BCAEEC562BA5CC4B005AEC0F /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
+		BCAEEC582BA5CC76005AEC0F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		BCAEEC5A2BA5D08C005AEC0F /* breeds_empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds_empty.json; sourceTree = "<group>"; };
+		BCAEEC5B2BA5D08C005AEC0F /* breeds_with_more.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds_with_more.json; sourceTree = "<group>"; };
+		BCAEEC5C2BA5D08C005AEC0F /* breeds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds.json; sourceTree = "<group>"; };
+		BCAEEC5D2BA5D08D005AEC0F /* Abyssinian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abyssinian.jpg; sourceTree = "<group>"; };
+		BCAEEC5E2BA5D08D005AEC0F /* Balinese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balinese.jpg; sourceTree = "<group>"; };
+		BCAEEC5F2BA5D08D005AEC0F /* Bengal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bengal.jpg; sourceTree = "<group>"; };
+		BCAEEC602BA5D08D005AEC0F /* Burmese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Burmese.jpg; sourceTree = "<group>"; };
+		BCAEEC612BA5D08D005AEC0F /* CloudedLeopard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CloudedLeopard.jpg; sourceTree = "<group>"; };
+		BCAEEC622BA5D08D005AEC0F /* DevonRex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DevonRex.jpg; sourceTree = "<group>"; };
+		BCAEEC632BA5D08D005AEC0F /* EuropeanWildcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EuropeanWildcat.jpg; sourceTree = "<group>"; };
+		BCAEEC642BA5D08D005AEC0F /* MaineCoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaineCoon.jpg; sourceTree = "<group>"; };
+		BCAEEC652BA5D08D005AEC0F /* Manx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Manx.jpg; sourceTree = "<group>"; };
+		BCAEEC662BA5D08D005AEC0F /* Ragdoll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ragdoll.jpg; sourceTree = "<group>"; };
+		BCAEEC672BA5D08D005AEC0F /* RussianBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RussianBlue.jpg; sourceTree = "<group>"; };
+		BCAEEC682BA5D08D005AEC0F /* Sand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sand.jpg; sourceTree = "<group>"; };
+		BCAEEC692BA5D08D005AEC0F /* Savannah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Savannah.jpg; sourceTree = "<group>"; };
+		BCAEEC6A2BA5D08D005AEC0F /* Serval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Serval.jpg; sourceTree = "<group>"; };
+		BCAEEC6B2BA5D08D005AEC0F /* Siamese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Siamese.jpg; sourceTree = "<group>"; };
+		BCAEEC6C2BA5D08D005AEC0F /* Smilodon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Smilodon.jpg; sourceTree = "<group>"; };
+		BCAEEC6D2BA5D08D005AEC0F /* Tonkinese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tonkinese.jpg; sourceTree = "<group>"; };
+		BCAEEC6E2BA5D08D005AEC0F /* TurkishAngora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TurkishAngora.jpg; sourceTree = "<group>"; };
+		BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Van.jpg; sourceTree = "<group>"; };
+		BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds_malformed.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +175,7 @@
 		BC4B80562BA488D500DA33C9 /* CatFancySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BCAEEC532BA5CBB0005AEC0F /* MockData */,
 				BC4B80862BA48BA200DA33C9 /* App */,
 				BC4B80832BA4896B00DA33C9 /* Assets */,
 				BC4B80812BA4892400DA33C9 /* Helpers */,
@@ -126,10 +197,18 @@
 		BC4B80812BA4892400DA33C9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				BC4B80972BA48FAD00DA33C9 /* URLExtension.swift */,
-				BC4B80992BA48FE900DA33C9 /* SoundPlayer.swift */,
 				BC4B809D2BA4907300DA33C9 /* BreedsLoader.swift */,
+				BCAEEC472BA5C9D7005AEC0F /* GetterSetter.swift */,
+				BCAEEC4B2BA5C9EB005AEC0F /* GetterSetterFake.swift */,
+				BCAEEC492BA5C9E1005AEC0F /* GetterSetterReal.swift */,
+				BCAEEC582BA5CC76005AEC0F /* ImageLoader.swift */,
 				BCAEEC382BA5B2C6005AEC0F /* Layout.swift */,
+				BC4B80992BA48FE900DA33C9 /* SoundPlayer.swift */,
+				BCAEEC452BA5C9A8005AEC0F /* SoundPlayerDummy.swift */,
+				BCAEEC432BA5C933005AEC0F /* SoundPlayerReal.swift */,
+				BC4B80972BA48FAD00DA33C9 /* URLExtension.swift */,
+				BCAEEC562BA5CC4B005AEC0F /* URLProtocolStub.swift */,
+				BCAEEC512BA5CB95005AEC0F /* URLSessionExtension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -138,11 +217,14 @@
 			isa = PBXGroup;
 			children = (
 				BC4B80932BA48F3D00DA33C9 /* Breed.swift */,
-				BC4B80952BA48F6600DA33C9 /* License.swift */,
-				BC4B809B2BA4901100DA33C9 /* Sound.swift */,
 				BC4B809F2BA4909100DA33C9 /* Breeds.swift */,
-				BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */,
+				BCAEEC4D2BA5CAE7005AEC0F /* BreedsURL.swift */,
+				BC4B80952BA48F6600DA33C9 /* License.swift */,
+				BCAEEC4F2BA5CB1E005AEC0F /* SessionType.swift */,
 				BCAEEC3F2BA5BF75005AEC0F /* Settings.swift */,
+				BCAEEC3D2BA5BF3C005AEC0F /* SortOrder.swift */,
+				BC4B809B2BA4901100DA33C9 /* Sound.swift */,
+				BCAEEC412BA5C8C6005AEC0F /* World.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,9 +232,9 @@
 		BC4B80832BA4896B00DA33C9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
 				BC4B808F2BA48F2C00DA33C9 /* chime.mp3 */,
 				BC4B80902BA48F2C00DA33C9 /* sadTrombone.mp3 */,
-				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -183,6 +265,45 @@
 				BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		BCAEEC532BA5CBB0005AEC0F /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEEC5A2BA5D08C005AEC0F /* breeds_empty.json */,
+				BCAEEC712BA5D08D005AEC0F /* breeds_malformed.json */,
+				BCAEEC5B2BA5D08C005AEC0F /* breeds_with_more.json */,
+				BCAEEC5C2BA5D08C005AEC0F /* breeds.json */,
+				BCAEEC702BA5D08D005AEC0F /* CatImages */,
+				BCAEEC542BA5CC02005AEC0F /* MockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		BCAEEC702BA5D08D005AEC0F /* CatImages */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEEC5D2BA5D08D005AEC0F /* Abyssinian.jpg */,
+				BCAEEC5E2BA5D08D005AEC0F /* Balinese.jpg */,
+				BCAEEC5F2BA5D08D005AEC0F /* Bengal.jpg */,
+				BCAEEC602BA5D08D005AEC0F /* Burmese.jpg */,
+				BCAEEC612BA5D08D005AEC0F /* CloudedLeopard.jpg */,
+				BCAEEC622BA5D08D005AEC0F /* DevonRex.jpg */,
+				BCAEEC632BA5D08D005AEC0F /* EuropeanWildcat.jpg */,
+				BCAEEC642BA5D08D005AEC0F /* MaineCoon.jpg */,
+				BCAEEC652BA5D08D005AEC0F /* Manx.jpg */,
+				BCAEEC662BA5D08D005AEC0F /* Ragdoll.jpg */,
+				BCAEEC672BA5D08D005AEC0F /* RussianBlue.jpg */,
+				BCAEEC682BA5D08D005AEC0F /* Sand.jpg */,
+				BCAEEC692BA5D08D005AEC0F /* Savannah.jpg */,
+				BCAEEC6A2BA5D08D005AEC0F /* Serval.jpg */,
+				BCAEEC6B2BA5D08D005AEC0F /* Siamese.jpg */,
+				BCAEEC6C2BA5D08D005AEC0F /* Smilodon.jpg */,
+				BCAEEC6D2BA5D08D005AEC0F /* Tonkinese.jpg */,
+				BCAEEC6E2BA5D08D005AEC0F /* TurkishAngora.jpg */,
+				BCAEEC6F2BA5D08D005AEC0F /* Van.jpg */,
+			);
+			path = CatImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +387,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAEEC752BA5D08D005AEC0F /* Abyssinian.jpg in Resources */,
+				BCAEEC722BA5D08D005AEC0F /* breeds_empty.json in Resources */,
+				BCAEEC862BA5D08D005AEC0F /* TurkishAngora.jpg in Resources */,
+				BCAEEC822BA5D08D005AEC0F /* Serval.jpg in Resources */,
+				BCAEEC7D2BA5D08D005AEC0F /* Manx.jpg in Resources */,
 				BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */,
+				BCAEEC812BA5D08D005AEC0F /* Savannah.jpg in Resources */,
+				BCAEEC782BA5D08D005AEC0F /* Burmese.jpg in Resources */,
 				BC4B80922BA48F2C00DA33C9 /* sadTrombone.mp3 in Resources */,
+				BCAEEC842BA5D08D005AEC0F /* Smilodon.jpg in Resources */,
+				BCAEEC882BA5D08D005AEC0F /* breeds_malformed.json in Resources */,
+				BCAEEC792BA5D08D005AEC0F /* CloudedLeopard.jpg in Resources */,
 				BC4B80912BA48F2C00DA33C9 /* chime.mp3 in Resources */,
+				BCAEEC832BA5D08D005AEC0F /* Siamese.jpg in Resources */,
+				BCAEEC742BA5D08D005AEC0F /* breeds.json in Resources */,
+				BCAEEC7B2BA5D08D005AEC0F /* EuropeanWildcat.jpg in Resources */,
+				BCAEEC762BA5D08D005AEC0F /* Balinese.jpg in Resources */,
+				BCAEEC802BA5D08D005AEC0F /* Sand.jpg in Resources */,
+				BCAEEC732BA5D08D005AEC0F /* breeds_with_more.json in Resources */,
+				BCAEEC872BA5D08D005AEC0F /* Van.jpg in Resources */,
+				BCAEEC7C2BA5D08D005AEC0F /* MaineCoon.jpg in Resources */,
+				BCAEEC7A2BA5D08D005AEC0F /* DevonRex.jpg in Resources */,
+				BCAEEC7F2BA5D08D005AEC0F /* RussianBlue.jpg in Resources */,
+				BCAEEC772BA5D08D005AEC0F /* Bengal.jpg in Resources */,
+				BCAEEC852BA5D08D005AEC0F /* Tonkinese.jpg in Resources */,
+				BCAEEC7E2BA5D08D005AEC0F /* Ragdoll.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,22 +430,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAEEC422BA5C8C6005AEC0F /* World.swift in Sources */,
 				BCAEEC3B2BA5BCEE005AEC0F /* BreedDetailsView.swift in Sources */,
 				BC4B80962BA48F6700DA33C9 /* License.swift in Sources */,
+				BCAEEC592BA5CC76005AEC0F /* ImageLoader.swift in Sources */,
 				BC4B80942BA48F3D00DA33C9 /* Breed.swift in Sources */,
 				BCAEEC402BA5BF75005AEC0F /* Settings.swift in Sources */,
 				BC4B809E2BA4907300DA33C9 /* BreedsLoader.swift in Sources */,
 				BC4B808E2BA48ED400DA33C9 /* BrowseBreedsViewModel.swift in Sources */,
+				BCAEEC462BA5C9A8005AEC0F /* SoundPlayerDummy.swift in Sources */,
 				BC4B80A02BA4909100DA33C9 /* Breeds.swift in Sources */,
 				BC4B808C2BA48D3700DA33C9 /* SettingsView.swift in Sources */,
+				BCAEEC502BA5CB1E005AEC0F /* SessionType.swift in Sources */,
+				BCAEEC4E2BA5CAE7005AEC0F /* BreedsURL.swift in Sources */,
 				BC4B809A2BA48FE900DA33C9 /* SoundPlayer.swift in Sources */,
 				BC4B809C2BA4901100DA33C9 /* Sound.swift in Sources */,
 				BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */,
+				BCAEEC572BA5CC4B005AEC0F /* URLProtocolStub.swift in Sources */,
+				BCAEEC4C2BA5C9EB005AEC0F /* GetterSetterFake.swift in Sources */,
+				BCAEEC522BA5CB95005AEC0F /* URLSessionExtension.swift in Sources */,
 				BC4B80982BA48FAD00DA33C9 /* URLExtension.swift in Sources */,
 				BCAEEC372BA5B2A5005AEC0F /* ErrorRetryView.swift in Sources */,
 				BCAEEC392BA5B2C6005AEC0F /* Layout.swift in Sources */,
 				BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */,
+				BCAEEC4A2BA5C9E1005AEC0F /* GetterSetterReal.swift in Sources */,
+				BCAEEC552BA5CC02005AEC0F /* MockData.swift in Sources */,
+				BCAEEC482BA5C9D7005AEC0F /* GetterSetter.swift in Sources */,
 				BCAEEC3E2BA5BF3C005AEC0F /* SortOrder.swift in Sources */,
+				BCAEEC442BA5C933005AEC0F /* SoundPlayerReal.swift in Sources */,
 				BC4B808A2BA48D2400DA33C9 /* BrowseBreedsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
