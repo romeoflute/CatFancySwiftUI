@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC02EC6F2BA7147900102B35 /* BreedsLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC6E2BA7147900102B35 /* BreedsLoaderTests.swift */; };
 		BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */; };
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
 		BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */; };
@@ -78,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC02EC6E2BA7147900102B35 /* BreedsLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsLoaderTests.swift; sourceTree = "<group>"; };
 		BC4B80542BA488D500DA33C9 /* CatFancySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFancySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIApp.swift; sourceTree = "<group>"; };
 		BC4B805B2BA488D600DA33C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,6 +160,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC02EC6D2BA7144C00102B35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BC02EC6E2BA7147900102B35 /* BreedsLoaderTests.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BC4B804B2BA488D500DA33C9 = {
 			isa = PBXGroup;
 			children = (
@@ -193,8 +203,7 @@
 		BC4B80672BA488D600DA33C9 /* CatFancySwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BCAEEC922BA5E892005AEC0F /* Helpers */,
-				BCAEEC912BA5E88F005AEC0F /* Models */,
+				BC02EC6D2BA7144C00102B35 /* Helpers */,
 				BCAEEC902BA5E88D005AEC0F /* ViewModels */,
 			);
 			path = CatFancySwiftUITests;
@@ -322,22 +331,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		BCAEEC912BA5E88F005AEC0F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
-			path = "New Group1/Models";
-			sourceTree = "<group>";
-		};
-		BCAEEC922BA5E892005AEC0F /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Helpers;
-			path = "New Group1/New Group/Helpers";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,6 +384,7 @@
 					};
 					BC4B80632BA488D600DA33C9 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 						TestTargetID = BC4B80532BA488D500DA33C9;
 					};
 				};
@@ -501,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC02EC6F2BA7147900102B35 /* BreedsLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +692,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KT6YTKK67V;
@@ -706,6 +702,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flauta.romeo.CatFancySwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatFancySwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatFancySwiftUI";
@@ -717,6 +714,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KT6YTKK67V;
