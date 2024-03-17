@@ -16,6 +16,7 @@
 		BC02EC7B2BA7193900102B35 /* URLExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC7A2BA7193900102B35 /* URLExtensionTests.swift */; };
 		BC02EC7D2BA719FD00102B35 /* URLProtocolStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC7C2BA719FD00102B35 /* URLProtocolStubTests.swift */; };
 		BC02EC7F2BA71ADD00102B35 /* URLSessionExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC7E2BA71ADD00102B35 /* URLSessionExtensionTests.swift */; };
+		BC02EC822BA71BBB00102B35 /* BreedsURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC812BA71BBB00102B35 /* BreedsURLTests.swift */; };
 		BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */; };
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
 		BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */; };
@@ -96,6 +97,7 @@
 		BC02EC7A2BA7193900102B35 /* URLExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensionTests.swift; sourceTree = "<group>"; };
 		BC02EC7C2BA719FD00102B35 /* URLProtocolStubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStubTests.swift; sourceTree = "<group>"; };
 		BC02EC7E2BA71ADD00102B35 /* URLSessionExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtensionTests.swift; sourceTree = "<group>"; };
+		BC02EC812BA71BBB00102B35 /* BreedsURLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsURLTests.swift; sourceTree = "<group>"; };
 		BC4B80542BA488D500DA33C9 /* CatFancySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFancySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIApp.swift; sourceTree = "<group>"; };
 		BC4B805B2BA488D600DA33C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,6 +194,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		BC02EC802BA71BAA00102B35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC02EC812BA71BBB00102B35 /* BreedsURLTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BC4B804B2BA488D500DA33C9 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				BC02EC6D2BA7144C00102B35 /* Helpers */,
+				BC02EC802BA71BAA00102B35 /* Models */,
 				BCAEEC902BA5E88D005AEC0F /* ViewModels */,
 			);
 			path = CatFancySwiftUITests;
@@ -521,6 +532,7 @@
 			files = (
 				BC02EC792BA718B300102B35 /* SoundPlayerRealTests.swift in Sources */,
 				BC02EC7B2BA7193900102B35 /* URLExtensionTests.swift in Sources */,
+				BC02EC822BA71BBB00102B35 /* BreedsURLTests.swift in Sources */,
 				BC02EC732BA7172600102B35 /* GetterSetterRealTests.swift in Sources */,
 				BC02EC7D2BA719FD00102B35 /* URLProtocolStubTests.swift in Sources */,
 				BC02EC7F2BA71ADD00102B35 /* URLSessionExtensionTests.swift in Sources */,
