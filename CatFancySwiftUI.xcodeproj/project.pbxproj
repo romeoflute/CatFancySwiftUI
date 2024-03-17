@@ -23,6 +23,8 @@
 		BC02EC8C2BA7202F00102B35 /* SortOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC8B2BA7202F00102B35 /* SortOrderTests.swift */; };
 		BC02EC8E2BA720B200102B35 /* WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC8D2BA720B200102B35 /* WorldTests.swift */; };
 		BC02EC902BA7211B00102B35 /* BrowseBreedsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC8F2BA7211B00102B35 /* BrowseBreedsViewModelTests.swift */; };
+		BC02EC922BA7224F00102B35 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BC02EC912BA7224F00102B35 /* README.md */; };
+		BC02EC942BA7263D00102B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC02EC932BA7263D00102B35 /* LaunchScreen.storyboard */; };
 		BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */; };
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
 		BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */; };
@@ -110,6 +112,8 @@
 		BC02EC8B2BA7202F00102B35 /* SortOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOrderTests.swift; sourceTree = "<group>"; };
 		BC02EC8D2BA720B200102B35 /* WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTests.swift; sourceTree = "<group>"; };
 		BC02EC8F2BA7211B00102B35 /* BrowseBreedsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseBreedsViewModelTests.swift; sourceTree = "<group>"; };
+		BC02EC912BA7224F00102B35 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC02EC932BA7263D00102B35 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4B80542BA488D500DA33C9 /* CatFancySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFancySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIApp.swift; sourceTree = "<group>"; };
 		BC4B805B2BA488D600DA33C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -222,6 +226,7 @@
 		BC4B804B2BA488D500DA33C9 = {
 			isa = PBXGroup;
 			children = (
+				BC02EC912BA7224F00102B35 /* README.md */,
 				BC4B80562BA488D500DA33C9 /* CatFancySwiftUI */,
 				BC4B80672BA488D600DA33C9 /* CatFancySwiftUITests */,
 				BC4B80552BA488D500DA33C9 /* Products */,
@@ -302,6 +307,7 @@
 				BC4B805B2BA488D600DA33C9 /* Assets.xcassets */,
 				BC4B808F2BA48F2C00DA33C9 /* chime.mp3 */,
 				BC4B80902BA48F2C00DA33C9 /* sadTrombone.mp3 */,
+				BC02EC932BA7263D00102B35 /* LaunchScreen.storyboard */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 				BC4B80912BA48F2C00DA33C9 /* chime.mp3 in Resources */,
 				BCAEEC832BA5D08D005AEC0F /* Siamese.jpg in Resources */,
 				BCAEEC742BA5D08D005AEC0F /* breeds.json in Resources */,
+				BC02EC922BA7224F00102B35 /* README.md in Resources */,
 				BCAEEC7B2BA5D08D005AEC0F /* EuropeanWildcat.jpg in Resources */,
 				BCAEEC762BA5D08D005AEC0F /* Balinese.jpg in Resources */,
 				BCAEEC802BA5D08D005AEC0F /* Sand.jpg in Resources */,
@@ -490,6 +497,7 @@
 				BCAEEC7A2BA5D08D005AEC0F /* DevonRex.jpg in Resources */,
 				BCAEEC7F2BA5D08D005AEC0F /* RussianBlue.jpg in Resources */,
 				BCAEEC772BA5D08D005AEC0F /* Bengal.jpg in Resources */,
+				BC02EC942BA7263D00102B35 /* LaunchScreen.storyboard in Resources */,
 				BCAEEC852BA5D08D005AEC0F /* Tonkinese.jpg in Resources */,
 				BCAEEC7E2BA5D08D005AEC0F /* Ragdoll.jpg in Resources */,
 			);
@@ -711,6 +719,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -740,6 +749,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
