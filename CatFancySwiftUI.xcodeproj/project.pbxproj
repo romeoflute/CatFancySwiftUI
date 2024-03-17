@@ -12,6 +12,7 @@
 		BC02EC732BA7172600102B35 /* GetterSetterRealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC722BA7172600102B35 /* GetterSetterRealTests.swift */; };
 		BC02EC752BA7179100102B35 /* ImageLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC742BA7179100102B35 /* ImageLoaderTests.swift */; };
 		BC02EC772BA7186200102B35 /* SoundPlayerDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC762BA7186200102B35 /* SoundPlayerDummyTests.swift */; };
+		BC02EC792BA718B300102B35 /* SoundPlayerRealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02EC782BA718B300102B35 /* SoundPlayerRealTests.swift */; };
 		BC4B80582BA488D500DA33C9 /* CatFancySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */; };
 		BC4B805C2BA488D600DA33C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4B805B2BA488D600DA33C9 /* Assets.xcassets */; };
 		BC4B80882BA48C4A00DA33C9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B80872BA48C4A00DA33C9 /* MainTabView.swift */; };
@@ -88,6 +89,7 @@
 		BC02EC722BA7172600102B35 /* GetterSetterRealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterSetterRealTests.swift; sourceTree = "<group>"; };
 		BC02EC742BA7179100102B35 /* ImageLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderTests.swift; sourceTree = "<group>"; };
 		BC02EC762BA7186200102B35 /* SoundPlayerDummyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerDummyTests.swift; sourceTree = "<group>"; };
+		BC02EC782BA718B300102B35 /* SoundPlayerRealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerRealTests.swift; sourceTree = "<group>"; };
 		BC4B80542BA488D500DA33C9 /* CatFancySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFancySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B80572BA488D500DA33C9 /* CatFancySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFancySwiftUIApp.swift; sourceTree = "<group>"; };
 		BC4B805B2BA488D600DA33C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				BC02EC722BA7172600102B35 /* GetterSetterRealTests.swift */,
 				BC02EC742BA7179100102B35 /* ImageLoaderTests.swift */,
 				BC02EC762BA7186200102B35 /* SoundPlayerDummyTests.swift */,
+				BC02EC782BA718B300102B35 /* SoundPlayerRealTests.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC02EC792BA718B300102B35 /* SoundPlayerRealTests.swift in Sources */,
 				BC02EC732BA7172600102B35 /* GetterSetterRealTests.swift in Sources */,
 				BC02EC772BA7186200102B35 /* SoundPlayerDummyTests.swift in Sources */,
 				BC02EC712BA716AF00102B35 /* GetterSetterFakeTests.swift in Sources */,
